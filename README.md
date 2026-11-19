@@ -64,4 +64,4 @@ evaluacion2/
 
 ## ✒️ Autor
 
-* **Tu Nombre** – [Tu perfil de GitHub](https://github.com)
+* **Robert Rojas Santos** – https://github.com/RobertRojasSantos/Introduccion-a-PHP-y-BD-Evaluacion-2
