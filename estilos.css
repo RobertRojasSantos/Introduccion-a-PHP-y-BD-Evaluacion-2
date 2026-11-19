@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F2F2F2;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+form {
+    width: 100%;
+    padding: 25px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #536DFE;
+    border-radius: 4px;
+}
+
+form h2 {
+    text-align: center;
+    color: #141938;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+form input[type="text"],
+form textarea {
+    border: 1px solid #536DFE;
+    border-radius: 3px;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #141938;
+}
+
+form input[type="text"]:focus,
+form textarea:focus {
+    outline: none;
+    border: 2px solid #3F51B5;
+}
+
+form textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 250px;
+    min-height: 140px;
+}
+
+.alert {
+    padding: 15px;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.alert.error {
+    background: #F2DEDE;
+    border: 1px solid #a94442;
+    color: #a94442;
+}
+
+.alert.success {
+    background: #4CAF50;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 15px 20px;
+    background: #ED572A;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #E64A19;
+}
+
+.historial-box {
+    margin-top: 25px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    border-top: 4px solid #4CAF50;
+}
+
+.historial-box h3 {
+    color: #141938;
+    font-size: 17px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.mensaje-item {
+    background: #f9fafc;
+    border: 1px solid #e0e4f5;
+    border-left: 3px solid #536DFE;
+    padding: 12px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+}
+
+.mensaje-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #141938;
+}
+
+.mensaje-header span {
+    font-size: 12px;
+    color: #777;
+}
+
+.mensaje-correo {
+    display: block;
+    color: #536DFE;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.mensaje-texto {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+}
