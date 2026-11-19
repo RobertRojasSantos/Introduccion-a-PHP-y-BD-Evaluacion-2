@@ -4,6 +4,8 @@
 
 Un proyecto web sencillo desarrollado en **PHP puro** y **CSS3** que implementa un formulario de contacto con validación del lado del servidor, persistencia de datos en archivo de texto plano (`.txt`) y visualización en tiempo real de los mensajes registrados.
 
+👉 **[Haz clic aquí para abrir el proyecto en Localhost](http://localhost:8080/evaluacion2/index.php)** *(Requiere tener XAMPP encendido)*
+
 ---
 
 ## ✨ Características
@@ -20,7 +22,7 @@ Un proyecto web sencillo desarrollado en **PHP puro** y **CSS3** que implementa 
 * **Backend:** PHP 8+
 * **Frontend:** HTML5, CSS3
 * **Entorno de Desarrollo:** Visual Studio Code (VSC)
-* **Servidor Local:** XAMPP (Apache)
+* **Servidor Local:** XAMPP (Apache y MySQL)
 
 ---
 
@@ -45,14 +47,13 @@ evaluacion2/
 2. **Mueve la carpeta al directorio de XAMPP:**
    Copia la carpeta `evaluacion2` dentro de la ruta `htdocs` de tu instalación de XAMPP (por ejemplo: `C:\xampp\htdocs\evaluacion2`).
 
-3. **Inicia el servidor:**
-   Abre el panel de control de **XAMPP** e inicia el módulo **Apache**.
+3. **Configuración de Puertos e Inicio en XAMPP:**
+   * En este entorno se modificaron los puertos por defecto de Apache: el puerto **80** fue cambiado al **8080**, y el puerto **443** (SSL) al **4433**.
+   * Abre el panel de control de **XAMPP** y haz clic en **Start** tanto en el módulo **Apache** como en **MySQL**.
 
 4. **Abre el proyecto en tu navegador:**
-   Ingresa a la siguiente URL (ajusta el puerto si usas el 80 por defecto):
-   ```text
-   http://localhost:8080/evaluacion2/index.php
-   ```
+   Haz clic en el siguiente enlace directo o pégalo en tu navegador:
+   * 🔗 **[http://localhost:8080/evaluacion2/index.php](http://localhost:8080/evaluacion2/index.php)**
 
 ---
 
@@ -64,4 +65,6 @@ evaluacion2/
 
 ## ✒️ Autor
 
-* **Robert Rojas Santos** – https://github.com/RobertRojasSantos/Introduccion-a-PHP-y-BD-Evaluacion-2
+* **Robert Rojas Santos** – (https://github.com/RobertRojasSantos/Introduccion-a-PHP-y-BD-Evaluacion-2)
+
+  
