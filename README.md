@@ -4,7 +4,7 @@
 
 Un proyecto web sencillo desarrollado en **PHP puro** y **CSS3** que implementa un formulario de contacto con validación del lado del servidor, persistencia de datos en archivo de texto plano (`.txt`) y visualización en tiempo real de los mensajes registrados.
 
-👉 **[Haz clic aquí para abrir el proyecto en Localhost](http://localhost:8080/evaluacion2/index.php)** *(Requiere tener XAMPP encendido)*
+👉 <a href="http://localhost:8080/evaluacion2/index.php" target="_blank" rel="noopener noreferrer"><strong>Haz clic aquí para abrir el proyecto en Localhost</strong></a> *(Requiere tener XAMPP encendido)*
 
 ---
 
@@ -53,7 +53,7 @@ evaluacion2/
 
 4. **Abre el proyecto en tu navegador:**
    Haz clic en el siguiente enlace directo o pégalo en tu navegador:
-   * 🔗 **[http://localhost:8080/evaluacion2/index.php](http://localhost:8080/evaluacion2/index.php)**
+   * 🔗 <a href="http://localhost:8080/evaluacion2/index.php" target="_blank" rel="noopener noreferrer"><strong>http://localhost:8080/evaluacion2/index.php</strong></a>
 
 ---
 
@@ -65,6 +65,4 @@ evaluacion2/
 
 ## ✒️ Autor
 
-* **Robert Rojas Santos** – (https://github.com/RobertRojasSantos/Introduccion-a-PHP-y-BD-Evaluacion-2)
-
-  
+* **Robert Rojas Santos** – [Repositorio del proyecto en GitHub](https://github.com/RobertRojasSantos/Introduccion-a-PHP-y-BD-Evaluacion-2)
